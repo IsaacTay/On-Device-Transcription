@@ -1,5 +1,5 @@
 pip3 install jupyterlab -q
-pip3 install tensorflow==2.0.0-beta1 -q
+pip3 install tensorflow-gpu==2.0.0-beta1 -q
 
 if [ ! -d warp-transducer ]; then
   git clone https://github.com/HawkAaron/warp-transducer
